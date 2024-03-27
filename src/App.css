@@ -109,7 +109,6 @@ article img {
   margin-left: 30px;
   border-radius: 9px;
   width: 30%;
-  position: sticky;
 }
 
 .button {
@@ -132,7 +131,6 @@ article img {
   background: #ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
-  position: sticky;
 }
 .panier p {
   font-family: "Roboto", sans-serif;
@@ -150,7 +148,17 @@ article img {
   justify-content: center;
   align-items: space-between;
 }
-
+.vide{
+  margin-bottom: 70px;
+  text-align: center;
+  margin-top: 50px;
+  color: #909696;
+  line-height: 25px;
+  font-size: 20px;
+}
+.display{
+  display: none;
+}
 .click_client {
   color: #808484;
   display: flex;
@@ -158,7 +166,13 @@ article img {
   margin-top: 25px;
 
 }
-
+.list{
+  display: flex;
+  flex-direction: column;
+}
+.vide1{
+  background-color: #762626;
+}
 .number {
   margin-top: 5px;
   margin-left: 4px;
